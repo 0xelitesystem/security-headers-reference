@@ -8,15 +8,19 @@ HTTP security headers are instructions a server sends with each response that te
 
 ## What is inside
 
-- `01-what-they-are.md` how response headers instruct the browser.
-- `02-the-essential-headers.md` the ones that matter most, each explained.
-- `03-content-security-policy.md` the most powerful and most involved one.
-- `04-a-baseline.md` a sensible starting set.
-- `05-testing-and-pitfalls.md` verifying them and avoiding breakage.
+- [01-what-they-are.md](01-what-they-are.md) how response headers instruct the browser.
+- [02-the-essential-headers.md](02-the-essential-headers.md) the ones that matter most, each explained.
+- [03-content-security-policy.md](03-content-security-policy.md) the most powerful and most involved one.
+- [04-a-baseline.md](04-a-baseline.md) a sensible starting set.
+- [05-testing-and-pitfalls.md](05-testing-and-pitfalls.md) verifying them and avoiding breakage.
 
 ## The stance
 
 This reference treats security headers as high-value, low-effort hardening: most take minutes to add and meaningfully reduce risk. It favors starting with a safe baseline and tightening over time, rather than either ignoring headers or deploying an aggressive policy that breaks the site.
+
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
 
 ## License
 
